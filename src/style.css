@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+   font-family: 'Karla', sans-serif;
+    
+}
+
+#root{
+    display: flex;
+    justify-content:center;
+}
+
+main{
+    padding: 36px;
+}
+
+
+.header {
+
+   display: flex;
+   align-items: center;
+   height: 65px;
+   background: linear-gradient(90deg, #3b0b4c 1.18%, #66319f 100%);
+   color: white;
+   padding: 25px;
+
+}
+
+.header-image {
+    height: 170%;
+    margin-right: 6px;
+
+}
+
+
+.header-title {
+    font-size: 1.25rem;
+    margin-right: auto;
+    font-weight: 800;
+    margin-left: 2px;
+}
+
+
+.header-project {
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr ;
+    gap:20px;
+    
+}
+
+.form-input {
+    font-family: "karla", sans-serif;
+    border-radius: 7px;
+    border: 1px solid #D5d408;
+    text-indent: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-btn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    grid-column: 1 /-1;
+    font-family: "Karla", sans-serif;
+    border-radius: 7px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+
+.form-random-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 30px;
+    max-width: 100%;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+.meme {
+    position: relative;
+}
+
+
+
+.meme-text-top, .meme-text-bottom {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.meme-text-bottom {
+    bottom: 30px;
+}
+
+.meme-text-top {
+    top: 30px;
+}
