@@ -23,7 +23,7 @@ main{
    display: flex;
    align-items: center;
    height: 65px;
-   background: linear-gradient(90deg, #3b0b4c 1.18%, #66319f 100%);
+   background: linear-gradient(90deg, #0a0474 1.18%, #0b97b7  100%);
    color: white;
    padding: 25px;
 
@@ -75,7 +75,7 @@ main{
     grid-column: 1 /-1;
     font-family: "Karla", sans-serif;
     border-radius: 7px;
-    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    background: linear-gradient(90deg, #0a0474 1.18%, #0b97b7 100%);
 }
 
 
