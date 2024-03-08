@@ -11,10 +11,12 @@ body {
 #root{
     display: flex;
     justify-content:center;
+    
 }
 
 main{
     padding: 36px;
+    border: 2px solid black;
 }
 
 
@@ -96,6 +98,8 @@ main{
 
 .meme {
     position: relative;
+    border:12px solid black;
+    
 }
 
 
