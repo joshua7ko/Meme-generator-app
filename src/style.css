@@ -98,8 +98,8 @@ main{
 
 .meme {
     position: relative;
-    border:12px solid black;
-    
+    border:10px solid black;
+    margin-top: 10px;
 }
 
 
