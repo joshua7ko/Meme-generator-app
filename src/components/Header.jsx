@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
-import {logoImg }  from "/public/troll-face.png";
+import logoImg  from "/public/troll-face.png";
 
 
 export default function Header(){
