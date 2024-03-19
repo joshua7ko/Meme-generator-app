@@ -61,11 +61,15 @@ main{
 
 .form-input {
     font-family: "karla", sans-serif;
-    border-radius: 7px;
+    border-radius: 15px;
     border: 1px solid #D5d408;
     text-indent: 5px;
     font-weight: bold;
     font-size: 18px;
+    box-shadow:0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de;
 }
 
 .form-btn {
@@ -100,10 +104,10 @@ main{
     position: relative;
     border:10px solid black;
     margin-top: 10px;
-    box-shadow:0px 0px 20px #37c7de,
-    0px 0px 20px #37c7de,
-    0px 0px 20px #37c7de,
-    0px 0px 20px #37c7de;
+    box-shadow:0px 0px 12px #37c7de,
+    0px 0px 12px #37c7de,
+    0px 0px 12px #37c7de,
+    0px 0px 12px #37c7de;
 }
 
 
