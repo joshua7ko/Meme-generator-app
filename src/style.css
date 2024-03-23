@@ -82,6 +82,15 @@ main{
     font-family: "Karla", sans-serif;
     border-radius: 7px;
     background: linear-gradient(90deg, #0a0474 1.18%, #0b97b7 100%);
+
+}
+
+.form-btn:active {
+    box-shadow: 0px 0px 12px #000,
+    0px 0px 12px #000,
+    0px 0px 12px #000,
+    0px 0px 12px #000;
+
 }
 
 
@@ -102,12 +111,13 @@ main{
 
 .meme {
     position: relative;
-    border:10px solid black;
+    border:5px solid black;
+    border-radius: 15px;
     margin-top: 10px;
-    box-shadow:0px 0px 12px #37c7de,
-    0px 0px 12px #37c7de,
-    0px 0px 12px #37c7de,
-    0px 0px 12px #37c7de;
+    box-shadow:0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de,
+    0px 0px 5px #37c7de;
 }
 
 
